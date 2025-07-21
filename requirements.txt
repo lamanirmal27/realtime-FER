@@ -1,5 +1,5 @@
 flask==2.0.1
-tensorflow==2.16.1
+tensorflow==2.15.0
 numpy==1.24.3
 opencv-python-headless==4.8.0.74
 pillow==9.5.0
