@@ -4,4 +4,5 @@ numpy==1.24.3
 opencv-python-headless==4.8.0.74
 pillow==9.5.0
 gunicorn==20.1.0
+dlib==19.24.0
 setuptools
