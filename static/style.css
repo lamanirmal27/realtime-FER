@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f0f0f0;
+}
+
+video,canvas {
+  width: 640px;
+  height: 480px;
+  margin: 10px;
+  border: 2px solid #333;
+}
+video{
+    display: none;
+}
+#prediction {
+  font-size: 24px;
+  margin-top: 10px;
+}
+#cameraToggle {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+#cameraToggle:hover {
+    background-color: #45a049;
+}
+
+#cameraToggle.stop {
+    background-color: #f44336;
+}
